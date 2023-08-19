@@ -2,9 +2,9 @@
 HashiCorp has introduced the new Terraform Associate 003 Certification exam to replace the previous version 002.
 The 003 exam aligns better with the evolving features of HashiCorp Terraform and its growth. The exam's structure has been updated to match the product's current state, and more information about the changes and how to sign up can be found on the new certification page.
 
-## Differences between Terraform Associate 003 and 002:
+# Differences between Terraform Associate 003 and 002:
 
-# Removed Objectives:
+## Removed Objectives:
 
 -  No provisioners allowed: Remote-exec, Local-exec. Terraform provides built-in functionalities as replacements.
 -  "terraform taint" command deprecated, replaced with "terraform [plan | apply] -replace".
@@ -13,7 +13,8 @@ The 003 exam aligns better with the evolving features of HashiCorp Terraform and
 -  The dynamic block for configuring resources is still relevant, but it's not a separate sub-objective.
 
 
-# Added Objectives:
+
+## Added Objectives:
 
 -  Introduction of the "cloud" block connecting configurations to Terraform Cloud as a remote State backend.
 -  Describe different remote state storage mechanisms and supported standard backends.
@@ -24,7 +25,8 @@ The 003 exam aligns better with the evolving features of HashiCorp Terraform and
 -  Explain how Terraform Cloud manages infrastructure and workspaces.
 -  Describe Terraform Cloud governance, cost controls, collaboration, and the private registry.
 
-# Recommendations:
+
+## Recommendations:
 
 - Sign up for a Terraform Cloud account and utilize the free trial to explore all features for 30 days.
 - Focus on understanding new functionality and features introduced in version 003.
