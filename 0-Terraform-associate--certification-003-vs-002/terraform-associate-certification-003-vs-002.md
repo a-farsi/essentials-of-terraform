@@ -21,9 +21,8 @@ The 003 exam aligns better with the evolving features of HashiCorp Terraform and
 -  Manage Terraform drift and state.
 -  Introduction of "terraform.lock.hcl" files generated during "terraform init" to record provider and module version constraints for consistency and locking into specific versions.
 -  Demonstrate use of variables and outputs: sensitive values are now part of this objective.
--  Grouping of three sub-objectives into two:
--  Explain how Terraform Cloud manages infrastructure and workspaces.
--  Describe Terraform Cloud governance, cost controls, collaboration, and the private registry.
+-  Terraform Cloud's Infrastructure Management:Terraform Cloud facilitates infrastructure management through workspaces. It focuses on understanding workspaces, their role in provisioning, and the three workflow options.
+- Collaboration and Governance with Terraform Cloud: Sentinel and Terraform roles in governance, cost controls, private registry utilization, and team collaboration.
 
 
 ## Recommendations:
@@ -34,7 +33,7 @@ The 003 exam aligns better with the evolving features of HashiCorp Terraform and
 
 Here is a list of more noteworthy changes : 
 <p align="center">
-<img src="../figures/00-terraform-diff-certif-003-002.png" width=65%>
+<img src="../figures/00-terraform-diff-certif-003-002.png" width=70%>
 </p>
 <p align="center">
 Difference between Terraform Associate Certification 002 and the version 003
