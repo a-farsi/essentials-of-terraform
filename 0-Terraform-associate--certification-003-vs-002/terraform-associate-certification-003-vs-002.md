@@ -33,6 +33,11 @@ The 003 exam aligns better with the evolving features of HashiCorp Terraform and
 - Pay attention to the "cloud" block, "terraform.lock.hcl" files, using "-refresh-only" and "-replace" with plan and apply, and marking variables/outputs as sensitive.
 
 Here is a list of more noteworthy changes : 
-
+<p align="center">
+<img src="../figures/00-terraform-diff-certif-003-002.png" width=65%>
+</p>
+<p align="center">
+Difference between Terraform Associate Certification 002 and the version 003
+</p>
 
 - Please note that it's always a good idea to cross-reference with official documentation and resources to ensure accuracy.
